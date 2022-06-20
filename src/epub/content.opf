@@ -32,6 +32,7 @@
 		<dc:subject id="subject-1">Science fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85118629</meta>
+		<meta property="se:subject">Science Fiction</meta>
 		<dc:description id="description">Trigger Argee is swept up in a galaxy-wide intrigue involving the Old Galactic civilization and their bio-engineered servants, the plasmoids.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Legacy&lt;/i&gt; recounts the adventures of Trigger Argee as she and her friends, Holati Tate, Professor Mantelish, and Heslet Quillan, become involved in various intrigues involving the plasmoids: bioengineered servants left abandoned by the Old Galactic civilization. Legacy is a sequel to the novella &lt;i&gt;Harvest Time&lt;/i&gt;, which first appeared in &lt;i&gt;Astounding Science Fiction&lt;/i&gt; in September, 1958. &lt;i&gt;Harvest Time&lt;/i&gt; recounts Holati Tate’s initial discovery of the plasmoids.&lt;/p&gt;
@@ -53,7 +54,7 @@
 		<dc:contributor id="artist">Raymond Jonson</dc:contributor>
 		<meta property="file-as" refines="#artist">Jonson, Raymond</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Raymond_Jonson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n89669834.html</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n89669834</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Greg Weeks</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Weeks, Greg</meta>
