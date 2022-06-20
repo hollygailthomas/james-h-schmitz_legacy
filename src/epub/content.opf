@@ -28,40 +28,45 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Legacy</dc:title>
 		<meta property="file-as" refines="#title">Legacy</meta>
+		<meta property="dcterms:alternative" refines="#title">A Tale of Two Clocks</meta>
 		<dc:subject id="subject-1">Science fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85118629</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Trigger Argee is swept up in a galaxy-wide intrigue involving the Old Galactic civilization and their bio-engineered servants, the plasmoids.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Legacy&lt;/i&gt; recounts the adventures of Trigger Argee as she and her friends, Holati Tate, Professor Mantelish, and Heslet Quillan, become involved in various intrigues involving the plasmoids: bioengineered servants left abandoned by the Old Galactic civilization. Legacy is a sequel to the novella &lt;i&gt;Harvest Time&lt;/i&gt;, which first appeared in &lt;i&gt;Astounding Science Fiction&lt;/i&gt; in September, 1958. &lt;i&gt;Harvest Time&lt;/i&gt; recounts Holati Tate’s initial discovery of the plasmoids.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Legacy&lt;/i&gt; was originally titled &lt;i&gt;A Tale of Two Clocks&lt;/i&gt;. Trigger Argee appeared in a number of other works by &lt;a href="https://standardebooks.org/ebooks/james-h-schmitz"&gt;James H. Schmitz&lt;/a&gt;, including &lt;i&gt;The Porkchop Tree&lt;/i&gt;, &lt;i&gt;Glory Day&lt;/i&gt;, &lt;i&gt;The Symbiotes&lt;/i&gt;, and &lt;i&gt;Aura of Immortality&lt;/i&gt;.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/21510</dc:source>
 		<dc:source>https://archive.org/details/taleoftwoclocks00schm</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Legacy</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/james-h-schmitz_legacy</meta>
 		<dc:creator id="author">James H. Schmitz</dc:creator>
 		<meta property="file-as" refines="#author">Schmitz, James H.</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">James Henry Schmitz</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/James_H._Schmitz</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80132906</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Raymond Jonson</dc:contributor>
+		<meta property="file-as" refines="#artist">Jonson, Raymond</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Raymond_Jonson</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n89669834.html</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">The Online Distributed Proofreading Team</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Online Distributed Proofreading Team, The</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">https://www.pgdp.net</meta>
+		<dc:contributor id="transcriber-1">Greg Weeks</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Weeks, Greg</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Joel Schlosberg</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Schlosberg, Joel</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">https://www.pgdp.net</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Holly Thomas</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Thomas, Holly</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
